@@ -241,3 +241,17 @@ hr
     }
 }
 
+.google-map-container 
+{
+    height: 100%;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    margin: 0;
+    padding-top: 0;
+    
+    overflow: hidden;
+}
+
