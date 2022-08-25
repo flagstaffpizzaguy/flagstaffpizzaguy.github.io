@@ -9,13 +9,14 @@
 /* General styling */
 :root
 {
-    --primary-font-color: #333;
+    --gray: #B8B8B8;
+    
+    --dark-font-color: #333;
     --primary-color: #eb2b21;
     --primary-color-dark: #800;
     --secondary-color: #9A4330;
     --bg-light: #fcfdff;
     --bg-dark: #212121;
-    --gray: #B8B8B8;
 }
 html, body, header, main, footer
 {
@@ -50,10 +51,13 @@ body
   text-align: center;
   vertical-align: middle;
   
-  color: var(--primary-font-color);
+  margin-top: auto;
+  margin-bottom: auto;
+  
+  color: var(--dark-font-color);
   text-decoration: none;
   
-  transition: color .15s ease-in-out, text-shadow .2s ease-in-out;
+  transition: color .2s ease-in-out, text-shadow .2s ease-in-out;
 }
 .header-tab:hover 
 {
@@ -75,7 +79,7 @@ img, .svg
 {
     vertical-align: middle;
     max-height: 40px;
-    max-height: 3.25vw;
+    max-height: calc( 12px + 2.5vw );
 }
 .logo-footer img
 {
@@ -255,3 +259,16 @@ hr
     overflow: hidden;
 }
 
+.single-card-row
+{
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px)
+{
+  .single-card
+  {
+      width: 50%;
+  }
+}
