@@ -7,8 +7,6 @@ This repository contains The Pizza Guy's website, which is currently being hoste
 * Outdated content and design style - The design was not aesthetic enough to compete with modern restaurant websites. Also, there was incorrent information and pricing present on the site.
 * Poor code design - There were serveal issues in the website's code that would negatively impact Search Engine Optimization (SEO).
 
-The only remaining task is to set up the appropriate DNS records so that the business's domain ([flagstaffpizzaguy.com](http://flagstaffpizzaguy.com/)) will direct user's to the content stored in this repository.
-
 #
 
 The Pizza Guy is a local business located in Flagstaff, Arizona. They have been serving and delivering pizza, wings, and more since 1997.
